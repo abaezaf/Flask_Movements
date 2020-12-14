@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} <Romanos></Romanos> {% endblock %}
+
+{% block mi_precioso_bloque_de_formato %}
+<form action="creaalta" method="post">
+    <div class="field">
+        {{ form.fecha.label }}
+        {{ form.fecha }}
+    </div>
+    <div class="field">
+        {{ form.concepto.label }}
+        {{ form.concepto }}
+    </div>
+    <div class="field">
+        {{ form.cantidad.label }}
+        {{ form.cantidad }}
+    </div>
+    <div class="field">
+        {{ form.submit }}
+    </div>  
+</form>
+{%  endblock %}
