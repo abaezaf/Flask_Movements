@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p.err-msg {
+    color: red;
+    font-size: 80%;
+}

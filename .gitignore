@@ -3,6 +3,5 @@ __pycache__/
 movements/__pycache__/
 .env
 .vscode/
-movements/data/
-movements/data/
+movements/data/basededatos.csv
 config.py
